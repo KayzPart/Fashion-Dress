@@ -63,9 +63,14 @@ nav#main-nav > ul > li > a{
 nav#main-nav > ul > li:hover > a{
     background-color: #7e6a6a17;
 }
+#content-burger{
+    cursor: pointer;
+    height: 35px;
+    width: auto;
+    padding: 5px;
+}
 #burger-menu{
     display: none;
-    cursor: pointer;
 }
 @media screen and (max-width: 1150px){
     nav#main-nav > ul > li > a{
